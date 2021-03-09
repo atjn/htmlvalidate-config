@@ -39,5 +39,8 @@
     "eslint-plugin-promise": "^4.3.1",
     "html-validate": "^4.6.1",
     "tap": "^14.11.0"
+  },
+  "engines": {
+    "node": "^12.x || ^14.x || ^15.x"
   }
 }
