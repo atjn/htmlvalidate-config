@@ -1,7 +1,7 @@
 # My personal HTML code style
 
 [![npm version](https://img.shields.io/npm/v/@atjn/htmlvalidate-config?style=flat-square)](https://www.npmjs.com/package/@atjn/htmlvalidate-config)
-[![html-validate version](https://img.shields.io/npm/dependency-version/@atjn/htmlvalidate-config/peer/htmlvalidate?style=flat-square&label=html-validate)](https://www.npmjs.com/package/@atjn/htmlvalidate-config?activeTab=dependencies)
+[![html-validate version](https://img.shields.io/npm/dependency-version/@atjn/htmlvalidate-config/peer/html-validate?style=flat-square&label=html-validate)](https://www.npmjs.com/package/@atjn/htmlvalidate-config?activeTab=dependencies)
 
 [![tests status](https://img.shields.io/github/workflow/status/atjn/htmlvalidate-config/Code%20quality?style=flat-square&label=tests)](https://github.com/atjn/htmlvalidate-config/actions/workflows/code-quality.yml)
 [![code quality score](https://img.shields.io/codacy/grade/179d8491943b40f6ba19a3f4ccd98351?style=flat-square)](https://www.codacy.com/gh/atjn/htmlvalidate-config/dashboard)
