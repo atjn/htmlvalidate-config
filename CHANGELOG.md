@@ -1,3 +1,10 @@
+## 1.1.0
+`fixed` Made a few minor improvements to cross-platform support.
+
+`added` Now has explicit support for Linux/Ubuntu, MacOS & Windows.
+
+`added` Now has explicit support for Node versions 12, 14 & 15.
+
 ## 1.0.1
 `fixed` Fixed bad link in readme.
 
