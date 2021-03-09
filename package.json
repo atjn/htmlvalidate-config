@@ -7,7 +7,7 @@
     ".htmlvalidate.js"
   ],
   "scripts": {
-    "lint:js": "eslint '**/*.js'",
+    "lint:js": "eslint \"**/*.js\"",
     "lint": "npm run lint:js",
     "test:tap": "tap",
     "test": "npm install && npm run lint && npm run test:tap"
@@ -34,8 +34,7 @@
     "html-validate": "^4.6.1"
   },
   "devDependencies": {
-    "@atjn/eslint-config": "2.0.0",
-    "diff": "^5.0.0",
+    "@atjn/eslint-config": "2.1.0",
     "eslint": "^7.21.0",
     "eslint-plugin-promise": "^4.3.1",
     "html-validate": "^4.6.1",

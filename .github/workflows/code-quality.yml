@@ -7,9 +7,10 @@ jobs:
   test:
 
     strategy:
+      fail-fast: false
       matrix:
         node-version: [14.x]
-        os: [ubuntu-latest]
+        os: [ubuntu-latest, windows-latest, macOS-latest]
 
     runs-on: ${{ matrix.os }}
 
@@ -35,6 +36,7 @@ jobs:
   report-coverage:
 
     strategy:
+      fail-fast: false
       matrix:
         node-version: [14.x]
         os: [ubuntu-latest]
