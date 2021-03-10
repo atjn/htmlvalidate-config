@@ -34,7 +34,7 @@
     "html-validate": "^4.6.1"
   },
   "devDependencies": {
-    "@atjn/eslint-config": "2.1.0",
+    "@atjn/eslint-config": "2.1.1",
     "eslint": "^7.21.0",
     "eslint-plugin-promise": "^4.3.1",
     "html-validate": "^4.6.1",
