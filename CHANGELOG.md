@@ -1,3 +1,6 @@
+## 1.1.1
+`fixed` Updated badges in readme as part of test system refactor.
+
 ## 1.1.0
 `fixed` Made a few minor improvements to cross-platform support.
 
