@@ -1,5 +1,10 @@
 "use strict";
 
+/**
+ * @file
+ * This is the main configuration file that defines all the rules html-validate will use to validate html.
+ */
+
 module.exports = {
 
 	"extends": [

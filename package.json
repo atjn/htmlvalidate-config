@@ -31,16 +31,17 @@
   },
   "homepage": "https://github.com/atjn/htmlvalidate-config#readme",
   "peerDependencies": {
-    "html-validate": "^4.6.1"
+    "html-validate": "^4.11.0"
   },
   "devDependencies": {
-    "@atjn/eslint-config": "2.1.1",
-    "eslint": "^7.21.0",
-    "eslint-plugin-promise": "^4.3.1",
-    "html-validate": "^4.6.1",
-    "tap": "^14.11.0"
+    "@atjn/eslint-config": "3.0.1",
+    "eslint": "^7.26.0",
+    "eslint-plugin-jsdoc": "^34.0.1",
+    "eslint-plugin-promise": "^5.1.0",
+    "html-validate": "^4.11.0",
+    "tap": "^15.0.9"
   },
   "engines": {
-    "node": "^12.x || ^14.x || ^15.x"
+    "node": "^12.x || ^14.x || ^16.x"
   }
 }

@@ -1,6 +1,11 @@
 "use strict";
 
-const t = require("tap");
+/**
+ * @file
+ * This runs a few basic tests to make sure the configuration file is valid and produces correct results.
+ */
+
+const tap = require("tap");
 
 module.exports = async () => {
 
@@ -13,42 +18,42 @@ module.exports = async () => {
 	const { HtmlValidate } = require("html-validate");
 	const htmlvalidate = new HtmlValidate();
 
-	t.test("Lint valid file", async t => {
+	tap.test("Lint valid file", async () => {
 
-		t.test("should return a report with zero linting errors", async t => {
+		tap.test("should return a report with zero linting errors", async () => {
 
 			const result = htmlvalidate.validateFile("test/fixture/valid.html");
 			
-			t.equal(result.valid, true, "reports file to be valid");
-			t.equal(result.errorCount, 0, "reports no errors");
-			t.equal(result.warningCount, 0, "reports no warnings");
+			tap.equal(result.valid, true, "reports file to be valid");
+			tap.equal(result.errorCount, 0, "reports no errors");
+			tap.equal(result.warningCount, 0, "reports no warnings");
 
-			t.equal(result.results.length, 0, "reports no messages");
+			tap.equal(result.results.length, 0, "reports no messages");
 
-			t.done();
+			tap.end();
 
 		});
 
-		t.done();
+		tap.end();
 
 	});
 
-	t.test("Lint file with bad code style", async () => {
+	tap.test("Lint file with bad code style", async () => {
 
-		t.test("should return a list of linting errors", async t => {
+		tap.test("should return a list of linting errors", async () => {
 
 			const result = htmlvalidate.validateFile("test/fixture/invalid.html");
 
-			t.equal(result.valid, false, "reports file to be invalid");
-			t.ok(result.errorCount > 0, "reports at least one error");
+			tap.equal(result.valid, false, "reports file to be invalid");
+			tap.ok(result.errorCount > 0, "reports at least one error");
 			
-			t.ok(result.results[0].messages.length > 0, "reports at least one message");
+			tap.ok(result.results[0].messages.length > 0, "reports at least one message");
 
-			t.done();
+			tap.end();
 
 		});
 
-		t.done();
+		tap.end();
 
 	});
 
