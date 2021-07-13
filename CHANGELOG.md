@@ -1,4 +1,4 @@
-## Unreleased
+## 2.0.0
 `breaking` This is now an ESM package, which is only supported by html-validate 5.1.0+
 
 ## 1.1.1
