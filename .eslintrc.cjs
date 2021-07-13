@@ -11,4 +11,8 @@ module.exports = {
 		"@atjn/eslint-config",
 	],
 
+	"parserOptions": {
+		"sourceType": "module",
+	},
+
 };

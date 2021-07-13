@@ -2,9 +2,10 @@
   "name": "@atjn/htmlvalidate-config",
   "version": "1.1.1",
   "description": "My personal HTML code style",
-  "main": ".htmlvalidate.js",
+  "type": "module",
+  "exports": "./.htmlvalidate.cjs",
   "files": [
-    ".htmlvalidate.js"
+    "/.htmlvalidate.cjs"
   ],
   "scripts": {
     "lint:js": "eslint \"**/*.js\"",
@@ -31,7 +32,7 @@
   },
   "homepage": "https://github.com/atjn/htmlvalidate-config#readme",
   "peerDependencies": {
-    "html-validate": "^4.14.0"
+    "html-validate": "^5.1.1"
   },
   "devDependencies": {
     "@atjn/eslint-config": "3.3.0",
