@@ -1,5 +1,5 @@
 ## 3.0.0
-`breaking` Updated to work with html-validate 6
+`breaking` Updated to work with html-validate 6.
 
 ## 2.0.0
 `breaking` This is now an ESM package, which is only supported by html-validate 5.1.0+
