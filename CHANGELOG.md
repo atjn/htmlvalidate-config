@@ -1,4 +1,4 @@
-## Unreleased
+## 3.0.0
 `breaking` Updated to work with html-validate 6
 
 ## 2.0.0
