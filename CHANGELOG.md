@@ -1,3 +1,8 @@
+## 4.0.0
+`breaking` Removed support for node 12.
+
+`added` Added support for node 18.
+
 ## 3.0.0
 `breaking` Updated to work with html-validate 6.
 
