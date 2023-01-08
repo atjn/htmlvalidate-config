@@ -3,9 +3,6 @@
 [![npm version](https://img.shields.io/npm/v/@atjn/htmlvalidate-config?style=flat-square)](https://www.npmjs.com/package/@atjn/htmlvalidate-config)
 [![html-validate version](https://img.shields.io/npm/dependency-version/@atjn/htmlvalidate-config/peer/html-validate?style=flat-square&label=html-validate)](https://www.npmjs.com/package/@atjn/htmlvalidate-config?activeTab=dependencies)
 
-[![tests status](https://img.shields.io/github/workflow/status/atjn/htmlvalidate-config/Code%20quality?style=flat-square&label=tests)](https://github.com/atjn/htmlvalidate-config/actions/workflows/code-quality.yml)
-[![lgtm js security score](https://img.shields.io/lgtm/grade/javascript/g/atjn/htmlvalidate-config.svg?style=flat-square&logo=lgtm&label=security%20score)](https://lgtm.com/projects/g/atjn/htmlvalidate-config/context:javascript)
-
 This is my personal HTML code style, defined as an [HTML-validate](https://html-validate.org/) shareable configuration. My style is:
 
 ### Stable
