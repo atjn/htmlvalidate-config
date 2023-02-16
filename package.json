@@ -1,6 +1,6 @@
 {
   "name": "@atjn/htmlvalidate-config",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "My personal HTML code style",
   "type": "module",
   "exports": "./.htmlvalidate.cjs",
