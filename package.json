@@ -11,7 +11,7 @@
     "lint:js": "eslint \"**/*.js\"",
     "lint": "npm run lint:js",
     "test:tap": "tap",
-    "test": "npm install && npm run lint && npm run test:tap"
+    "test": "npm run lint && npm run test:tap"
   },
   "repository": {
     "type": "git",
@@ -43,6 +43,6 @@
     "tap": "^16.2.0"
   },
   "engines": {
-    "node": "^14.x || ^16.x || ^18.x"
+    "node": ">=14.21"
   }
 }
