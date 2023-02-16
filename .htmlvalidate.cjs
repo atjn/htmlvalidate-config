@@ -20,20 +20,16 @@ module.exports = {
 		//General
 		"no-raw-characters":		 "off",
 		"no-style-tag":				 "error",
-		"require-sri":				["error", {"target": "crossorigin"}],
 
 		//Content model
 
-
 		//Accessibility
-		"svg-focusable":			 "off",
+
+		//Security
 
 		//SEO
 
-
 		//Style
-		"attribute-empty-style":	["error", {"style": "empty"}],
-		"no-trailing-whitespace":	 "off",
 
 		//Document
 
