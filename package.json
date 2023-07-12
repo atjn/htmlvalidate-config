@@ -32,15 +32,15 @@
   },
   "homepage": "https://github.com/atjn/htmlvalidate-config#readme",
   "peerDependencies": {
-    "html-validate": "^7.13.2"
+    "html-validate": "^8.0.5"
   },
   "devDependencies": {
-    "@atjn/eslint-config": "7.1.0",
-    "eslint": "^8.34.0",
-    "eslint-plugin-jsdoc": "^40.0.0",
+    "@atjn/eslint-config": "8.0.0",
+    "eslint": "^8.44.0",
+    "eslint-plugin-jsdoc": "^46.4.3",
     "eslint-plugin-promise": "^6.1.1",
-    "html-validate": "^7.13.2",
-    "tap": "^16.3.4"
+    "html-validate": "^8.0.5",
+    "tap": "^16.3.7"
   },
   "engines": {
     "node": ">=16.19"
