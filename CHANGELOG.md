@@ -1,3 +1,6 @@
+## 7.0.0
+`breaking` Updated to work with html-validate 8.
+
 ## 6.0.0
 `breaking` Removed support for node 14. Future node versions are automatically supported now.
 
